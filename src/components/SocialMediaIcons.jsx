@@ -3,7 +3,7 @@ export default function SocialMediaIcons() {
     <div className="flex justify-center md:justify-start my-10 gap-7">
       <a
         className="hover:opacity-50 transition duration-500"
-        href="https://www.linkedin.com/in/mbuipeter/"
+        href="https://www.linkedin.com/in/simon-kamau-codes/"
         target="_blank"
         rel="noreferrer"
       >
@@ -12,7 +12,7 @@ export default function SocialMediaIcons() {
 
       <a
         className="hover:opacity-50 transition duration-500"
-        href="https://twitter.com/shifft____"
+        href="https://x.com/Kamau_codes"
         target="_blank"
         rel="noreferrer"
       >
@@ -21,7 +21,7 @@ export default function SocialMediaIcons() {
 
       <a
         className="hover:opacity-50 transition duration-500"
-        href="https://github.com/mbuimbogo"
+        href="https://github.com/Kamausimon"
         target="_blank"
         rel="noreferrer"
       >
