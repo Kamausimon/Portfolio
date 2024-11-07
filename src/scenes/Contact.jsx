@@ -55,7 +55,7 @@ export default function Contact() {
             visible: { opacity: 1, y: 0 },
           }}
         >
-          <img src="/contact_card.svg" alt="contact" />
+          <img src="/contact_card.png" alt="contact" />
         </motion.div>
 
         <motion.div
