@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import useMediaQuery from "../hooks/useMediaQuery";
 import AnchorLink from "react-anchor-link-smooth-scroll";
-import Ptah from "../assets/ptah.jpg";
+import Simon from "../assets/simon.jpg";
 import SocialMediaIcons from "../components/SocialMediaIcons";
 
 const onButtonClick = () => {
@@ -29,14 +29,14 @@ export default function Landing({ setSelectedPage }) {
         {isAboveMediumScreens ? (
           <div className="relative z-0 ml-20 before:absolute before:-top-20 before:-left-20 before:rounded-t-[400px] before:w-full before:max-w-[400px] before:h-full before:border-2 before:border-blue before:z-[-1]">
             <img
-              src={Ptah}
+              src={Simon}
               alt="profile"
               className="transform animate-updown hover:filter hover:saturate-200 transition duration-500 z-10  max-w-[400px] md:max-w-[600px] h-[300px] w-[350px] rounded-t-[400px]"
             />
           </div>
         ) : (
           <img
-            src={Ptah}
+            src={Simon}
             alt="profile"
             className="hover:filter hover:saturate-200 transition duration-500 z-10 w-full max-w-[400px] md:max-w-[600px] h-[300px] rounded-t-[400px]"
           />
@@ -65,13 +65,14 @@ export default function Landing({ setSelectedPage }) {
             </span>
           </p>
           <p className="md:mx-0 mt-10 mb-7 text-sm text-center md:text-start">
-            Jambo 👋🏾 I specialize in FullStack (MERN-stack) Development - Frontend heavy with
-            React-TypeScript, Next.js, Vue.js & Angular, Ruby on Rails & Node.js. I value innovation
-            and quality, thus I am constantly trying to broaden my scope of
-            these aspects in my development journey. This comes with assessing
-            my own skills as well as learning from others. My passion lies in
-            problem-solving, and I find great joy in creating solutions that
-            have a positive impact on the wider community.
+            Jambo 👋🏾 I specialize in FullStack (MERN-stack) Development -
+            Frontend heavy with React-TypeScript, Next.js, Vue.js & Angular,
+            Ruby on Rails & Node.js. I value innovation and quality, thus I am
+            constantly trying to broaden my scope of these aspects in my
+            development journey. This comes with assessing my own skills as well
+            as learning from others. My passion lies in problem-solving, and I
+            find great joy in creating solutions that have a positive impact on
+            the wider community.
           </p>
         </motion.div>
         {/* Call to action */}

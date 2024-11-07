@@ -2,55 +2,32 @@ import { motion } from "framer-motion";
 import LineGradient from "../components/LineGradient";
 import Img from "../assets/img1.png";
 import Img2 from "../assets/img2.png";
-import Img3 from "../assets/img4.png";
 import Img4 from "../assets/img3.png";
-import Img5 from "../assets/img5.png";
-import Img6 from "../assets/img6.png";
 
 import Project from "./Class";
 
 const projdetails = [
   {
-    title: "Realtor Real Estate",
-    description: "Realtor Real Estate website using React js and Tailwind CSS",
-    image: Img2,
-    githubLink: "https://github.com/mbuimbogo/Realtor-clone-react",
-    liveLink: "https://realtor-react-fvy3z1x03-mbuimbogo.vercel.app/",
-  },
-  {
-    title: "Evogym Website",
-    description: "A gym website built with React, Typescript and TailwindCSS",
+    title: "Task management App",
+    description:
+      "Task and project management app built using Laravel blade and php",
     image: Img,
-    githubLink: "https://github.com/mbuimbogo/Gym/",
-    liveLink: "https://7bc4a78e.gym-ei3.pages.dev/",
+    githubLink: "https://github.com/Kamausimon/Tasker",
+    liveLink: "https://tasker.co.ke/",
   },
   {
-    title: "IMDb Clone",
-    description: "imdb clone using Next js and Tailwind CSS",
+    title: "Blog App",
+    description: "A blog application built using Laravel Blade and PHP",
+    image: Img2,
+    githubLink: "https://github.com/Kamausimon/blog",
+    liveLink: "https://thecryingwall.co.ke/",
+  },
+  {
+    title: "Ecommerce App",
+    description: "An Ecommerce application built using Laravel Blade and PHP",
     image: Img4,
-    githubLink: "https://github.com/mbuimbogo/IMDb",
-    liveLink: "https://im-db-mauve.vercel.app/",
-  },
-  {
-    title: "Google Clone",
-    description: "A replication of google project build with next js 13",
-    image: Img3,
-    githubLink: "https://github.com/mbuimbogo/Google-clone",
-    liveLink: "https://google-clone-two-wheat.vercel.app/",
-  },
-  {
-    title: "Portfolio template",
-    description: "Software Developer Portfolio template",
-    image: Img5,
-    githubLink: "https://github.com/mbuimbogo/Portfolio/",
-    liveLink: "https://portfolio-demo-ashen.vercel.app/",
-  },
-  {
-    title: "Makao Homes",
-    description: "A real website that lists properties",
-    image: Img6,
-    githubLink: "https://github.com/mbuimbogo/Makao-homes-Frontend",
-    liveLink: "https://makao-homes-frontend-ws43.vercel.app/",
+    githubLink: "https://github.com/Kamausimon/Ecommerce",
+    liveLink: "https://shope.africa/",
   },
 ];
 
@@ -129,7 +106,7 @@ const Projects = () => {
             SMOOTH USER EXPERIENCE
             <button className="rounded-r-sm bg-gradient-rainblue py-0.5 px-0.5 text-2xl">
               <div className="rounded-md text-red transition duration-500 bg-deep-blue w-full h-full flex items-center justify-center font-playfair ">
-                <a className="p-2" href="https://github.com/mbuimbogo">
+                <a className="p-2" href="https://github.com/Kamausimon">
                   More Projects{" "}
                 </a>
               </div>

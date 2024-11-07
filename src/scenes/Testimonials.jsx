@@ -24,16 +24,20 @@ export default function Testimonials() {
         <LineGradient width="mx-auto md:ml-8 w-2/4" />
         <p className="mt-10 mb-7">
           Throughout my work I have been able to delve in to a variety of
-          programming skills. My preferred field is frontend development using
-          React & TypeScript, although I also have Angular and Vue experience.
-          These experiences have allowed me to develop a strong skill set and a
-          deep understanding of various technologies and domains.
+          programming skills.My preferred field is Backend development using PHP
+          and laravel, though I also have alot of experience working with Nodejs
+          and Express. I have also worked with React to create fullstack
+          applications. Overall, all these experiences have helped me to become
+          a well rounded developer.
         </p>
       </motion.div>
 
       <div className="sm:grid sm:grid-cols md:grid-cols-2 lg:grid-cols-3 gap-8">
         {experiences.map((experience, index) => (
-          <div key={experience.company} className={`${index % 2 === 0 ? 'bg-red': 'bg-blue'}`}>
+          <div
+            key={experience.company}
+            className={`${index % 2 === 0 ? "bg-red" : "bg-blue"}`}
+          >
             <Experienc
               title={experience.company}
               company={experience.title}
