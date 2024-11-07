@@ -7,7 +7,7 @@ export default function Footer() {
         <SocialMediaIcons />
         <div className="md: flex justify-center md:justify-between text-center">
           <p className="font-playfair font-semibold text-yellow text-2xl">
-            MBOGO MBUI
+            Kamau Simon
           </p>
           <p className="font-playfair text-md text-yellow">
             ©{new Date().getFullYear()}.All Rights Reserved

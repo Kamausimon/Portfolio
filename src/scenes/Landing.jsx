@@ -5,12 +5,12 @@ import Simon from "../assets/simon.jpg";
 import SocialMediaIcons from "../components/SocialMediaIcons";
 
 const onButtonClick = () => {
-  fetch("mbuimbogo.pdf").then((response) => {
+  fetch("Simon's Resume.pdf").then((response) => {
     response.blob().then((blob) => {
       const fireURL = window.URL.createObjectURL(blob);
       let alink = document.createElement("a");
       alink.href = fireURL;
-      alink.download = "mbuimbogo.pdf";
+      alink.download = "Simon's Resume.pdf";
       alink.click();
     });
   });
@@ -65,7 +65,7 @@ export default function Landing({ setSelectedPage }) {
             </span>
           </p>
           <p className="md:mx-0 mt-10 mb-7 text-sm text-center md:text-start">
-            Jambo 👋🏾 I specialize in FullStack (MERN-stack) Development -
+            Hello 👋🏾 I specialize in FullStack (MERN-stack) Development -
             Frontend heavy with React-TypeScript, Next.js, Vue.js & Angular,
             Ruby on Rails & Node.js. I value innovation and quality, thus I am
             constantly trying to broaden my scope of these aspects in my

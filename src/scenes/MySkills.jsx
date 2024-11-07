@@ -1,17 +1,18 @@
 import { motion } from "framer-motion";
 import LineGradient from "../components/LineGradient";
 import useMediaQuery from "../hooks/useMediaQuery";
-import { FaReact, FaVuejs } from "react-icons/fa";
+import { FaReact } from "react-icons/fa";
 import { SiJavascript } from "react-icons/si";
-import { TbBrandNextjs } from "react-icons/tb";
 import { AiFillHtml5 } from "react-icons/ai";
 import { IoLogoCss3 } from "react-icons/io";
-import { FaAngular } from "react-icons/fa";
-import { SiRubyonrails } from "react-icons/si";
-import { SiTypescript } from "react-icons/si";
-import { SiFirebase } from "react-icons/si";
 import { SiTailwindcss } from "react-icons/si";
-import { FaPython, FaNodeJs } from "react-icons/fa";
+import { FaPhp } from "react-icons/fa6";
+import { FaLaravel } from "react-icons/fa6";
+import { FaNodeJs } from "react-icons/fa6";
+import { SiMysql } from "react-icons/si";
+import { SiPostgresql } from "react-icons/si";
+import { SiMongodb } from "react-icons/si";
+import { SiRedux } from "react-icons/si";
 
 export default function MySkills() {
   const isAboveLarge = useMediaQuery("(min-width: 1060px)");
@@ -35,7 +36,7 @@ export default function MySkills() {
           </p>
           <LineGradient width="w-1/3" />
           <p className="mt-10 mb-7">
-            In my roles as a Front-End Software Developer, I bring expertise in
+            In my roles as a Backend Software Developer, I bring expertise in
           </p>
         </motion.div>
 
@@ -97,12 +98,10 @@ export default function MySkills() {
           <div className="relative h-32">
             <div className="z-10">
               <p className="font-playfair font-semibold text-5xl">02</p>
-              <p className="font-playfair font-semibold text-3xl mt-3">
-                Python
-              </p>
+              <p className="font-playfair font-semibold text-3xl mt-3">PHP</p>
             </div>
             <div className="w-1/2 md:w-3/4 h-32 bg-red absolute right-0 top-0 z-[-1] flex items-center justify-center">
-              <FaPython className="h-20 w-20" />
+              <FaPhp className="h-20 w-20" />
             </div>
           </div>
         </motion.div>
@@ -188,11 +187,11 @@ export default function MySkills() {
             <div className="z-10">
               <p className="font-playfair font-semibold text-5xl">06</p>
               <p className="font-playfair font-semibold text-3xl mt-3">
-                Next.js
+                Laravel
               </p>
             </div>
             <div className="w-1/2 md:w-3/4 h-32 bg-yellow absolute right-0 top-0 z-[-1] flex items-center justify-center">
-              <TbBrandNextjs alt="" className="h-20 w-20" />
+              <FaLaravel alt="" className="h-20 w-20" />
             </div>
           </div>
           {/* <p className="mt-5">
@@ -218,11 +217,11 @@ export default function MySkills() {
             <div className="z-10">
               <p className="font-playfair font-semibold text-5xl">07</p>
               <p className="font-playfair font-semibold text-3xl mt-3">
-                Angular js
+                Node js
               </p>
             </div>
             <div className="w-1/2 md:w-3/4 h-32 bg-red absolute right-0 top-0 z-[-1] flex items-center justify-center">
-              <FaAngular alt="" className="h-20 w-20" />
+              <FaNodeJs alt="" className="h-20 w-20" />
             </div>
           </div>
         </motion.div>
@@ -241,12 +240,10 @@ export default function MySkills() {
           <div className="relative h-32">
             <div className="z-10">
               <p className="font-playfair font-semibold text-5xl">08</p>
-              <p className="font-playfair font-semibold text-3xl mt-3">
-                TypeScript
-              </p>
+              <p className="font-playfair font-semibold text-3xl mt-3">Mysql</p>
             </div>
             <div className="w-1/2 md:w-3/4 h-32 bg-yellow absolute right-0 top-0 z-[-1] flex items-center justify-center">
-              <SiTypescript alt="" className="h-20 w-20" />
+              <SiMysql alt="" className="h-20 w-20" />
             </div>
           </div>
         </motion.div>
@@ -266,11 +263,11 @@ export default function MySkills() {
             <div className="z-10">
               <p className="font-playfair font-semibold text-5xl">09</p>
               <p className="font-playfair font-semibold text-3xl mt-3">
-                Vue Js
+                Postgresql
               </p>
             </div>
             <div className="w-1/2 md:w-3/4 h-32 bg-blue absolute right-0 top-0 z-[-1] flex items-center justify-center">
-              <FaVuejs className="h-20 w-20" />
+              <SiPostgresql className="h-20 w-20" />
             </div>
           </div>
         </motion.div>
@@ -289,11 +286,11 @@ export default function MySkills() {
             <div className="z-10">
               <p className="font-playfair font-semibold text-5xl">10</p>
               <p className="font-playfair font-semibold text-3xl mt-3">
-                Node Js
+                Mongodb
               </p>
             </div>
             <div className="w-1/2 md:w-3/4 h-32 bg-blue absolute right-0 top-0 z-[-1] flex items-center justify-center">
-              <FaNodeJs className="h-20 w-20" />
+              <SiMongodb className="h-20 w-20" />
             </div>
           </div>
         </motion.div>
@@ -312,36 +309,10 @@ export default function MySkills() {
           <div className="relative h-32 md:mt-0 ">
             <div className="z-10">
               <p className="font-playfair font-semibold text-5xl">11</p>
-              <p className="font-playfair font-semibold text-3xl mt-3">
-                Ruby on Rails
-              </p>
+              <p className="font-playfair font-semibold text-3xl mt-3">Redux</p>
             </div>
             <div className="w-1/2 md:w-3/4 h-32 bg-blue absolute right-0 top-0 z-[-1] flex items-center justify-center">
-              <SiRubyonrails className="h-20 w-20" />
-            </div>
-          </div>
-        </motion.div>
-
-        <motion.div
-          className="mt-10 md:mt-0  p-2 rounded-md cursor-pointer sm:p-3 sm:hover:shadow-slate-400 sm:shadow-md transition-shadow duration-500"
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true, amount: 0.5 }}
-          transition={{ duration: 0.5 }}
-          variants={{
-            hidden: { opacity: 0, y: 50 },
-            visible: { opacity: 1, y: 0 },
-          }}
-        >
-          <div className="relative h-32 md:mt-0 ">
-            <div className="z-10">
-              <p className="font-playfair font-semibold text-5xl">12</p>
-              <p className="font-playfair font-semibold text-3xl mt-3">
-                Firebase
-              </p>
-            </div>
-            <div className="w-1/2 md:w-3/4 h-32 bg-yellow absolute right-0 top-0 z-[-1] flex items-center justify-center">
-              <SiFirebase className="h-20 w-20" />
+              <SiRedux className="h-20 w-20" />
             </div>
           </div>
         </motion.div>
