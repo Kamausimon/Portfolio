@@ -65,14 +65,14 @@ export default function Landing({ setSelectedPage }) {
             </span>
           </p>
           <p className="md:mx-0 mt-10 mb-7 text-sm text-center md:text-start">
-            Hello 👋🏾 I specialize in FullStack (MERN-stack) Development -
-            Frontend heavy with React-TypeScript, Next.js, Vue.js & Angular,
-            Ruby on Rails & Node.js. I value innovation and quality, thus I am
-            constantly trying to broaden my scope of these aspects in my
-            development journey. This comes with assessing my own skills as well
-            as learning from others. My passion lies in problem-solving, and I
-            find great joy in creating solutions that have a positive impact on
-            the wider community.
+            Hello 👋🏾👋🏾 I’m a FullStack developer with expertise in PHP, Laravel,
+            MySQL, Node.js, Express, React, and Redux. I focus on delivering
+            high-quality, scalable solutions by blending powerful backend
+            architectures with responsive, intuitive frontend experiences. I’m
+            passionate about innovation and continuous improvement, expanding my
+            skills through self-assessment and learning from others.
+            Problem-solving is at the core of my work , and I find fulfillment
+            in creating impactful solutions that serve and uplift communities.
           </p>
         </motion.div>
         {/* Call to action */}

@@ -9,6 +9,4 @@ export const experiences = [
     title: "Freelance",
     text: " Worked as a freelance developer on Upwork, collaborating with clients to create custom websites and web applications. I was responsible for developing responsive websites and web applications using React, Vue, and Angular. I also worked on the backend using Node.js and PHP.",
   },
-  {
-    
 ];
