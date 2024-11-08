@@ -70,7 +70,7 @@ export default function Contact() {
           }}
         >
           <form
-            action="https://formsubmit.co/9695c39bfce2abbd59cfa3a22d36e7af
+            action="https://formsubmit.co/kamausimon217@gmail.com"
 "
             onSubmit={onSubmit}
             target="_blank"
