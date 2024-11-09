@@ -3,6 +3,7 @@ import LineGradient from "../components/LineGradient";
 import Img from "../assets/img1.png";
 import Img2 from "../assets/img2.png";
 import Img4 from "../assets/img3.png";
+import Img5 from "../assets/img4.png";
 
 import Project from "./Class";
 
@@ -15,6 +16,11 @@ const projdetails = [
     githubLink: "https://github.com/Kamausimon/Tasker",
     liveLink: "https://tasker.co.ke/",
   },
+  title: "Portfolio App",
+    description: "A portfolio application built using react and tailwindcss",
+    image:Img5,
+    githubLink: "https://github.com/Kamausimon/Portfolio",
+    liveLink: "https://portfolio-simon-kamaus-projects-095261af.vercel.app/"
   {
     title: "Blog App",
     description: "A blog application built using Laravel Blade and PHP",
@@ -29,6 +35,7 @@ const projdetails = [
     githubLink: "https://github.com/Kamausimon/Ecommerce",
     liveLink: "https://shope.africa/",
   },
+  
 ];
 
 const container = {
