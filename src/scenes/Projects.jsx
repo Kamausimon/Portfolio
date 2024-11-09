@@ -16,11 +16,13 @@ const projdetails = [
     githubLink: "https://github.com/Kamausimon/Tasker",
     liveLink: "https://tasker.co.ke/",
   },
-  title: "Portfolio App",
+  {
+    title: "Portfolio App",
     description: "A portfolio application built using react and tailwindcss",
-    image:Img5,
+    image: Img5,
     githubLink: "https://github.com/Kamausimon/Portfolio",
-    liveLink: "https://portfolio-simon-kamaus-projects-095261af.vercel.app/"
+    liveLink: "https://portfolio-simon-kamaus-projects-095261af.vercel.app/",
+  },
   {
     title: "Blog App",
     description: "A blog application built using Laravel Blade and PHP",
@@ -35,7 +37,6 @@ const projdetails = [
     githubLink: "https://github.com/Kamausimon/Ecommerce",
     liveLink: "https://shope.africa/",
   },
-  
 ];
 
 const container = {
