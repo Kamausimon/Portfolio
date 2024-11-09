@@ -71,7 +71,6 @@ export default function Contact() {
         >
           <form
             action="https://formsubmit.co/kamausimon217@gmail.com"
-"
             onSubmit={onSubmit}
             target="_blank"
             method="POST"
