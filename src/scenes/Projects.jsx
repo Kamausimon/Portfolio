@@ -21,7 +21,7 @@ const projdetails = [
     description: "A portfolio application built using react and tailwindcss",
     image: Img5,
     githubLink: "https://github.com/Kamausimon/Portfolio",
-    liveLink: "https://portfolio-simon-kamaus-projects-095261af.vercel.app/",
+    liveLink: "https://kamausimon.vercel.app/",
   },
   {
     title: "Blog App",
