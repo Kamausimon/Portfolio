@@ -4,6 +4,7 @@ import Img from "../assets/img1.png";
 import Img2 from "../assets/img2.png";
 import Img4 from "../assets/img3.png";
 import Img5 from "../assets/img4.png";
+import Img6 from "../assets/img5.png";
 
 import Project from "./Class";
 
@@ -41,7 +42,7 @@ const projdetails = [
     title: "Inventory Management App",
     description:
       "An inventory management application built using React, Nodejs and MongoDB",
-    image: Img5,
+    image: Img6,
     githubLink: "https://github.com/Kamausimon/MTIS",
     livelink: "https://mtis-2.onrender.com/",
   },
