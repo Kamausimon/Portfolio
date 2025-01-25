@@ -12,7 +12,7 @@ const projdetails = [
   {
     title: "Task management App",
     description:
-      "Task and project management app built using Laravel blade and php",
+      "Task and project management app built using Laravel blade,TailwindCSS and php",
     image: Img,
     githubLink: "https://github.com/Kamausimon/Tasker",
     liveLink: "https://tasker.co.ke/",
@@ -26,14 +26,16 @@ const projdetails = [
   },
   {
     title: "Blog App",
-    description: "A blog application built using Laravel Blade and PHP",
+    description:
+      "A blog application built using Laravel Blade, TailwindCSS and PHP",
     image: Img2,
     githubLink: "https://github.com/Kamausimon/blog",
     liveLink: "https://thecryingwall.co.ke/",
   },
   {
     title: "Ecommerce App",
-    description: "An Ecommerce application built using Laravel Blade and PHP",
+    description:
+      "An Ecommerce application built using Laravel Blade,TailwindCSS and PHP",
     image: Img4,
     githubLink: "https://github.com/Kamausimon/Ecommerce",
     liveLink: "https://shope.africa/",
@@ -41,7 +43,7 @@ const projdetails = [
   {
     title: "Inventory Management App",
     description:
-      "An inventory management application built using React, Nodejs and MongoDB",
+      "An inventory management application built using React,TailwindCSS, Nodejs and MongoDB",
     image: Img6,
     githubLink: "https://github.com/Kamausimon/MTIS",
     livelink: "https://mtis-2.onrender.com/",
