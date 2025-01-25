@@ -37,6 +37,14 @@ const projdetails = [
     githubLink: "https://github.com/Kamausimon/Ecommerce",
     liveLink: "https://shope.africa/",
   },
+  {
+    title: "Inventory Management App",
+    description:
+      "An inventory management application built using React, Nodejs and MongoDB",
+    image: Img5,
+    githubLink: "https://github.com/Kamausimon/MTIS",
+    livelink: "https://mtis-2.onrender.com/",
+  },
 ];
 
 const container = {
