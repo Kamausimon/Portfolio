@@ -46,7 +46,7 @@ const projdetails = [
       "An inventory management application built using React,TailwindCSS, Nodejs and MongoDB",
     image: Img6,
     githubLink: "https://github.com/Kamausimon/MTIS",
-    livelink: "https://mtis-2.onrender.com/",
+    livelink: "https://frontend-production-26c4.up.railway.app/",
   },
 ];
 
