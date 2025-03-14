@@ -5,6 +5,7 @@ import Img2 from "../assets/img2.png";
 import Img4 from "../assets/img3.png";
 import Img5 from "../assets/img4.png";
 import Img6 from "../assets/img5.png";
+import img7 from "../assets/img6.png";
 
 import Project from "./Class";
 
@@ -47,6 +48,13 @@ const projdetails = [
     image: Img6,
     githubLink: "https://github.com/Kamausimon/MTIS",
     liveLink: "https://frontend-production-26c4.up.railway.app/",
+  },
+  {
+    title: "Ai-assisted Chat App",
+    description:
+      "An Ai-assisted chat application built using React, Nodejs, TailwindCSS and MongoDB",
+    image: img7,
+    liveLink: "https://frontend-production-1385.up.railway.app/",
   },
 ];
 
