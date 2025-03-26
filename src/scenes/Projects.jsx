@@ -6,6 +6,7 @@ import Img4 from "../assets/img3.png";
 import Img5 from "../assets/img4.png";
 import Img6 from "../assets/img5.png";
 import img7 from "../assets/img6.png";
+import img8 from "../assets/img7.png";
 
 import Project from "./Class";
 
@@ -55,6 +56,13 @@ const projdetails = [
       "An Ai-assisted chat application built using React, Nodejs, TailwindCSS and MongoDB",
     image: img7,
     liveLink: "https://frontend-production-1385.up.railway.app/",
+  },
+  {
+    title: "Topstone Enterprises Page",
+    description:
+      "A Landing page for Topstone Enterprises built using React, TailwindCSS and EmailJS",
+    image: img8,
+    liveLink: "https://topstoneent.com/",
   },
 ];
 
