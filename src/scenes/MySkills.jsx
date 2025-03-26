@@ -36,7 +36,7 @@ export default function MySkills() {
           </p>
           <LineGradient width="w-1/3" />
           <p className="mt-10 mb-7">
-            In my roles as a Backend Software Developer, I bring expertise in
+            In my roles as a Fullstack Software Developer, I bring expertise in
           </p>
         </motion.div>
 
