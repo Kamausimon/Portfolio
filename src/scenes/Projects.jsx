@@ -64,6 +64,12 @@ const projdetails = [
     image: img8,
     liveLink: "https://topstoneent.com/",
   },
+  {
+    title: "Rust serviceProviders API",
+    description: "An API for managing service providers built using Rust and Actix-web",
+    image: Img8,
+    githubLink: "https://github.com/Kamausimon/mtaalink"
+  }
 ];
 
 const container = {
