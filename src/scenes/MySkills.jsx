@@ -381,7 +381,7 @@ export default function MySkills() {
         >
           <div className="relative h-32">
             <div className="z-30">
-              <p className="font-playfair font-semibold text-5xl">01</p>
+              <p className="font-playfair font-semibold text-5xl">15</p>
               <p className="font-playfair font-semibold text-3xl mt-3">
                 Rust
               </p>
