@@ -7,6 +7,7 @@ import Img5 from "../assets/img4.png";
 import Img6 from "../assets/img5.png";
 import img7 from "../assets/img6.png";
 import img8 from "../assets/img7.png";
+import Img9 from "../assets/img8.png";
 
 import Project from "./Class";
 
@@ -67,7 +68,7 @@ const projdetails = [
   {
     title: "Rust serviceProviders API",
     description: "An API for managing service providers built using Rust and Actix-web",
-    image: Img8,
+    image: Img9,
     githubLink: "https://github.com/Kamausimon/mtaalink"
   }
 ];
