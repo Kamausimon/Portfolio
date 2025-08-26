@@ -85,29 +85,7 @@ export default function MySkills() {
           </div>
         </motion.div>
 
-          <motion.div
-          className=" mt-10 p-2 rounded-md cursor-pointer sm:p-3 sm:hover:shadow-slate-400 sm:shadow-md transition-shadow duration-200"
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true, amount: 0.5 }}
-          transition={{ duration: 0.5 }}
-          variants={{
-            hidden: { opacity: 0, y: 50 },
-            visible: { opacity: 1, y: 0 },
-          }}
-        >
-          <div className="relative h-32">
-            <div className="z-30">
-              <p className="font-playfair font-semibold text-5xl">01</p>
-              <p className="font-playfair font-semibold text-3xl mt-3">
-                JavaScript
-              </p>
-            </div>
-            <div className="w-1/2 md:w-3/4 h-32 bg-yellow absolute right-0 top-0 z-[-1] flex items-center justify-center">
-              <FaRust className="h-20 w-32" />
-            </div>
-          </div>
-        </motion.div>
+  
 
         <motion.div
           className=" mt-10  p-2 rounded-md cursor-pointer sm:p-3 sm:hover:shadow-slate-400 sm:shadow-md transition-shadow duration-500"
@@ -386,6 +364,30 @@ export default function MySkills() {
             </div>
             <div className="w-1/2 md:w-3/4 h-32 bg-red absolute right-0 top-0 z-[-1] flex items-center justify-center">
               <SiTailwindcss className="h-20 w-20" />
+            </div>
+          </div>
+        </motion.div>
+
+                <motion.div
+          className=" mt-10 p-2 rounded-md cursor-pointer sm:p-3 sm:hover:shadow-slate-400 sm:shadow-md transition-shadow duration-200"
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.5 }}
+          transition={{ duration: 0.5 }}
+          variants={{
+            hidden: { opacity: 0, y: 50 },
+            visible: { opacity: 1, y: 0 },
+          }}
+        >
+          <div className="relative h-32">
+            <div className="z-30">
+              <p className="font-playfair font-semibold text-5xl">01</p>
+              <p className="font-playfair font-semibold text-3xl mt-3">
+                Rust
+              </p>
+            </div>
+            <div className="w-1/2 md:w-3/4 h-32 bg-yellow absolute right-0 top-0 z-[-1] flex items-center justify-center">
+              <FaRust className="h-20 w-32" />
             </div>
           </div>
         </motion.div>
