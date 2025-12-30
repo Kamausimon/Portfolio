@@ -65,14 +65,29 @@ export default function Landing({ setSelectedPage }) {
             </span>
           </p>
           <p className="md:mx-0 mt-10 mb-7 text-sm text-center md:text-start">
-            Hello 👋🏾👋🏾 I’m a FullStack developer with expertise in PHP, Laravel,
-            MySQL, Node.js, Express, React, and Redux. I focus on delivering
-            high-quality, scalable solutions by blending powerful backend
-            architectures with responsive, intuitive frontend experiences. I’m
-            passionate about innovation and continuous improvement, expanding my
-            skills through self-assessment and learning from others.
-            Problem-solving is at the core of my work , and I find fulfillment
-            in creating impactful solutions that serve and uplift communities.
+            Hey, I'm Simon 👋🏾
+
+I build backend systems that handle real transactions and real users at scale.
+
+Over the past 3 years, I've designed APIs that process payments, authentication systems that protect user data, and monitoring infrastructure that gives real insights. 
+My work includes integrating payment gateways like M-Pesa and Stripe, implementing rate limiting to prevent abuse, and building observability with Prometheus and Grafana.
+
+My stack:
+
+Backend: Go, PHP (Laravel), Node.js/Express
+Databases: PostgreSQL, MySQL, MongoDB
+Tools: Prometheus, Grafana, Docker, Redis
+What I focus on:
+
+Payment system integration and security
+High-performance API design
+Database optimization and connection management
+Real-time monitoring and alerting
+Concurrent processing and race condition prevention
+I love solving hard problems—the kind that involve debugging connection leaks at 2am, optimizing database queries that handle millions of records, or building rate limiters that actually work under load.
+
+I learn by building, break things regularly, and document everything along the way.
+          </p>
           </p>
         </motion.div>
         {/* Call to action */}
