@@ -88,7 +88,6 @@ I love solving hard problems—the kind that involve debugging connection leaks 
 
 I learn by building, break things regularly, and document everything along the way.
           </p>
-          </p>
         </motion.div>
         {/* Call to action */}
         <motion.div
