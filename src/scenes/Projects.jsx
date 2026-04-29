@@ -53,13 +53,6 @@ const projdetails = [
     liveLink: "https://frontend-production-1385.up.railway.app/",
   },
   {
-    title: "Topstone Enterprises Page",
-    description:
-      "A Landing page for Topstone Enterprises built using React, TailwindCSS and EmailJS",
-    image: img8,
-    liveLink: "https://topstoneent.com/",
-  },
-  {
     title: "Rust serviceProviders API",
     description: "An API for managing service providers built using Rust and Actix-web",
     image: Img9,
