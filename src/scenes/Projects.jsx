@@ -18,14 +18,7 @@ const projdetails = [
       "Task and project management app built using Laravel blade,TailwindCSS and php",
     image: Img,
     githubLink: "https://github.com/Kamausimon/Tasker",
-    liveLink: "https://tasker.co.ke/",
-  },
-  {
-    title: "Portfolio App",
-    description: "A portfolio application built using react and tailwindcss",
-    image: Img5,
-    githubLink: "https://github.com/Kamausimon/Portfolio",
-    liveLink: "https://kamausimon.vercel.app/",
+    liveLink: "https://github.com/Kamausimon/Tasker",
   },
   {
     title: "Blog App",
@@ -33,7 +26,7 @@ const projdetails = [
       "A blog application built using Laravel Blade, TailwindCSS and PHP",
     image: Img2,
     githubLink: "https://github.com/Kamausimon/blog",
-    liveLink: "https://thecryingwall.co.ke/",
+    liveLink: "https://github.com/Kamausimon/blog",
   },
   {
     title: "Ecommerce App",
@@ -41,7 +34,7 @@ const projdetails = [
       "An Ecommerce application built using Laravel Blade,TailwindCSS and PHP",
     image: Img4,
     githubLink: "https://github.com/Kamausimon/Ecommerce",
-    liveLink: "https://shope.africa/",
+    liveLink: "https://github.com/Kamausimon/Ecommerce",
   },
   {
     title: "Inventory Management App",
@@ -56,6 +49,7 @@ const projdetails = [
     description:
       "An Ai-assisted chat application built using React, Nodejs, TailwindCSS and MongoDB",
     image: img7,
+    githubLink: "https://github.com/Kamausimon/Ai_Assistant",
     liveLink: "https://frontend-production-1385.up.railway.app/",
   },
   {
@@ -69,7 +63,8 @@ const projdetails = [
     title: "Rust serviceProviders API",
     description: "An API for managing service providers built using Rust and Actix-web",
     image: Img9,
-    githubLink: "https://github.com/Kamausimon/mtaalink"
+    githubLink: "https://github.com/Kamausimon/mtaalink",
+    liveLink:"https://github.com/Kamausimon/mtaalink",
   }
 ];
 
