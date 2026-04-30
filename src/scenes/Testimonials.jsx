@@ -24,8 +24,8 @@ export default function Testimonials() {
         <LineGradient width="mx-auto md:ml-8 w-2/4" />
         <p className="mt-10 mb-7">
           Throughout my work I have been able to delve in to a variety of
-          programming skills.My preferred field is Backend development using PHP
-          and laravel, though I also have alot of experience working with Nodejs
+          programming skills.My preferred field is Backend development using Golang, PHP 
+          and Rust, though I also have alot of experience working with Nodejs
           and Express. I have also worked with React to create fullstack
           applications. Overall, all these experiences have helped me to become
           a well rounded developer.
