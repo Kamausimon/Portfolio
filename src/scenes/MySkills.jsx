@@ -9,6 +9,7 @@ import { FaPhp } from "react-icons/fa";
 import { FaLaravel } from "react-icons/fa";
 import { FaNodeJs } from "react-icons/fa";
 import { SiMysql } from "react-icons/si";
+import { SiRedux } from "react-icons/si";
 import { SiPostgresql } from "react-icons/si";
 import { SiMongodb } from "react-icons/si";
 import { FaRust } from "react-icons/fa";
