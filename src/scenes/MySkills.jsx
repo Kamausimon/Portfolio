@@ -5,15 +5,14 @@ import { FaReact } from "react-icons/fa";
 import { SiJavascript } from "react-icons/si";
 import { AiFillHtml5 } from "react-icons/ai";
 import { IoLogoCss3 } from "react-icons/io";
-import { SiTailwindcss } from "react-icons/si";
 import { FaPhp } from "react-icons/fa";
 import { FaLaravel } from "react-icons/fa";
 import { FaNodeJs } from "react-icons/fa";
 import { SiMysql } from "react-icons/si";
 import { SiPostgresql } from "react-icons/si";
 import { SiMongodb } from "react-icons/si";
-import { SiRedux } from "react-icons/si";
 import { FaRust } from "react-icons/fa";
+import { FaGolang } from "react-icons/fa6";
 
 export default function MySkills() {
   const isAboveLarge = useMediaQuery("(min-width: 1060px)");
@@ -388,6 +387,30 @@ export default function MySkills() {
             </div>
             <div className="w-1/2 md:w-3/4 h-32 bg-yellow absolute right-0 top-0 z-[-1] flex items-center justify-center">
               <FaRust className="h-20 w-32" />
+            </div>
+          </div>
+        </motion.div>
+
+         <motion.div
+          className="mt-10 md:mt-0 p-2  rounded-md cursor-pointer sm:p-3 sm:hover:shadow-slate-400 sm:shadow-md transition-shadow duration-500"
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.5 }}
+          transition={{ delay: 0.2, duration: 0.5 }}
+          variants={{
+            hidden: { opacity: 0, y: 50 },
+            visible: { opacity: 1, y: 0 },
+          }}
+        >
+          <div className="relative h-32">
+            <div className="z-10">
+              <p className="font-playfair font-semibold text-5xl">07</p>
+              <p className="font-playfair font-semibold text-3xl mt-3">
+                Golang
+              </p>
+            </div>
+            <div className="w-1/2 md:w-3/4 h-32 bg-red absolute right-0 top-0 z-[-1] flex items-center justify-center">
+              <FaGolang alt="" className="h-20 w-20" />
             </div>
           </div>
         </motion.div>
