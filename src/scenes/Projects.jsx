@@ -28,14 +28,6 @@ const projdetails = [
     liveLink: "https://github.com/Kamausimon/Ecommerce",
   },
   {
-    title: "Inventory Management App",
-    description:
-      "An inventory management application built using React,TailwindCSS, Nodejs and MongoDB",
-    image: Img6,
-    githubLink: "https://github.com/Kamausimon/MTIS",
-    liveLink: "https://frontend-production-26c4.up.railway.app/",
-  },
-  {
     title: "Ai-assisted Chat App",
     description:
       "An Ai-assisted chat application built using React, Nodejs, TailwindCSS and MongoDB",
