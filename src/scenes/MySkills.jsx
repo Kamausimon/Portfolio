@@ -14,6 +14,7 @@ import { SiPostgresql } from "react-icons/si";
 import { SiMongodb } from "react-icons/si";
 import { FaRust } from "react-icons/fa";
 import { FaGolang } from "react-icons/fa6";
+import { SiTailwindcss } from "react-icons/si";
 
 export default function MySkills() {
   const isAboveLarge = useMediaQuery("(min-width: 1060px)");
