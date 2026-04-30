@@ -65,20 +65,7 @@ export default function Landing({ setSelectedPage }) {
             </span>
           </p>
           <p className="md:mx-0 mt-10 mb-7 text-sm text-center md:text-start">
-<<<<<<< HEAD
-            Hey, I'm Simon 👋🏾
-
-I build backend systems that handle real transactions and real users at scale.
-Over the past 3 years, I've architected APIs that move money, authentication systems that guard sensitive data, and monitoring infrastructure that surfaces what actually matters. From integrating M-Pesa and Stripe to wiring up Prometheus and Grafana — I build the unsexy layer that keeps everything running.
-My stack:
-
-Backend: Go, PHP (Laravel),Rust Node.js/Express
-Databases: PostgreSQL, MySQL, MongoDB
-Cloud: AWS (Solutions Architect Associate certified), Docker, Redis
-Tools: Prometheus, Grafana, Docker, Redis
-
-=======
-     Hey, I'm Simon 👋🏾
+         Hey, I'm Simon 👋🏾
 
 I build backend systems that handle real transactions and real users at scale.
 
@@ -87,10 +74,9 @@ My work includes integrating payment gateways like M-Pesa and Stripe, implementi
 
 My stack:
 
-Backend: Go, PHP (Laravel), Node.js/Express
+Backend: Go,Rust, PHP (Laravel), Node.js/Express
 Databases: PostgreSQL, MySQL, MongoDB
 Tools: Prometheus, Grafana, Docker, Redis
->>>>>>> 131003f (Update introduction in Landing component to reflect current expertise and focus areas)
 What I focus on:
 
 Payment system integration and security
@@ -98,15 +84,9 @@ High-performance API design
 Database optimization and connection management
 Real-time monitoring and alerting
 Concurrent processing and race condition prevention
-<<<<<<< HEAD
-
-The problems I find most interesting are the ones nobody warns you about — a connection leak surfacing at 2am, a query that holds up under 10k records but falls apart at a million, a rate limiter that works in staging but buckles in production.
-I learn by building, break things on purpose, and write down everything I figure out.
-=======
 I love solving hard problems—the kind that involve debugging connection leaks at 2am, optimizing database queries that handle millions of records, or building rate limiters that actually work under load.
 
 I learn by building, break things regularly, and document everything along the way.
->>>>>>> 131003f (Update introduction in Landing component to reflect current expertise and focus areas)
           </p>
         </motion.div>
         {/* Call to action */}
