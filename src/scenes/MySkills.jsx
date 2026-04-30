@@ -404,7 +404,7 @@ export default function MySkills() {
         >
           <div className="relative h-32">
             <div className="z-10">
-              <p className="font-playfair font-semibold text-5xl">07</p>
+              <p className="font-playfair font-semibold text-5xl">16</p>
               <p className="font-playfair font-semibold text-3xl mt-3">
                 Golang
               </p>
