@@ -3,11 +3,10 @@ import LineGradient from "../components/LineGradient";
 import Img from "../assets/img1.png";
 import Img2 from "../assets/img2.png";
 import Img4 from "../assets/img3.png";
-import Img5 from "../assets/img4.png";
 import Img6 from "../assets/img5.png";
 import img7 from "../assets/img6.png";
-import img8 from "../assets/img7.png";
 import Img9 from "../assets/img8.png";
+import Img10 from "../assets/img9.png";
 
 import Project from "./Class";
 
@@ -19,14 +18,6 @@ const projdetails = [
     image: Img,
     githubLink: "https://github.com/Kamausimon/Tasker",
     liveLink: "https://github.com/Kamausimon/Tasker",
-  },
-  {
-    title: "Blog App",
-    description:
-      "A blog application built using Laravel Blade, TailwindCSS and PHP",
-    image: Img2,
-    githubLink: "https://github.com/Kamausimon/blog",
-    liveLink: "https://github.com/Kamausimon/blog",
   },
   {
     title: "Ecommerce App",
@@ -58,6 +49,13 @@ const projdetails = [
     image: Img9,
     githubLink: "https://github.com/Kamausimon/mtaalink",
     liveLink:"https://github.com/Kamausimon/mtaalink",
+  },
+    {
+    title: "Golang Ticketing Demo Application",
+    description: "A web Ticketing system built using Golang, AWS S3, PostgreSQL, Redis, SMTP, Prometheus and Grafana",
+    image: Img10,
+    githubLink: "https://github.com/Kamausimon/ticketing_system",
+    liveLink:"https://github.com/Kamausimon/ticketing_system",
   }
 ];
 
